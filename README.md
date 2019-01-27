@@ -27,16 +27,15 @@ mostly ignored "community" forum.
 So, why the fuss, why this repository?
 Regardless of that what I see is Creality3D faling to fulfill the requirements of the GPL and OSHWA,
 I still do care about the repairabilty of my CR-10 and Ender-3.
-So I am trying to provide data for the V1.1.2 board as I believe Creality3D should have provided
-when starting to sell the CR-10 at least.
+But I got tired of asking Creality3D and Naomi Wu to sort this out and just getting ignored.
+
+So I did my own version of the schematic from scratch based on the Ender-3.PCB in the Ender-3 repository.
+This is my try to provide data for the V1.1.2 board as I believe Creality3D should have provided themselves when starting to sell the CR-10 at least.
 
 This is a complete Altium Designer project now, saved with AD17.
 Note: the "CR-10 Motherboard.PcbDoc" is not the same as "CR-10 Motherboard.PCB", it is based on that file but already
-has a couple of bugfixes implemented. Not to change anything but to correct the faulty "CR-10 Motherboard.PCB".
+has a couple of bugfixes implemented. Not to change anything, but to correct the faulty patched mess of the "CR-10 Motherboard.PCB".
 The design-rule check still throws 618 rule violations, curtesy of Creality3D.
-
-
-
 
 
 Original content of the README.md:
