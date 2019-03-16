@@ -38,6 +38,33 @@ has a couple of bugfixes implemented. Not to change anything, but to correct the
 The design-rule check still throws 618 rule violations, curtesy of Creality3D.
 
 
+Here is a transcript of part of the sub-titles from Naomi WUs video on youtube called "Naomi Wu speaking at COSCon'18 (China Open-Source Conference)".
+This was back in November 2018:
+
+"I'm an Open Source evangelist."
+"I am the person behind the first Open Source Hardware Association certified projects in China."
+"Nice words but nothing gets done."
+"Everyone talks about Open Source- show me the certification, not just a logo on a PCB."
+"As I said, I think that doalog with the community is key to successful Open Source engagement."
+"Every file you needed- CAD files, BOM, board schematics, firmware, everything to clone it was posted on GitHub."
+"Creality3D has maintained their commitment to Open Source and have continuously released source files and maintained GPL compliance."
+
+"You have to be relatable, not just a faceless company."
+"Every successfule Open Source project has an online community."
+"If your engineers are not an active participant in those communites, don't communicate with the community, the community will abandon you eventually."
+"Just dumping a load of files on Github is not engagement."
+"If your engineers can't manage pull requests, can't collaborate with Western developers, you aren't going to reap the full benefits of Open Source."
+"Especially with Western developers."
+"Then you get nothing."
+"All of these things require open-minded thinking that Chinese tech companies might not be accustomed to."
+
+What happened?
+There have been no significant contributions to the Ender-3 repository after the first upload.
+Almost none of the issues have been resolved.
+There is no communication going on with anyone from Creality3D or Naomi Wu on their repositories.
+All they do is dump, run and ignore.
+
+
 Original content of the README.md:
 
 # CR10-Melzi-1.1.2
