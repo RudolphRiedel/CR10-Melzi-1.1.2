@@ -24,6 +24,26 @@ has a couple of bugfixes implemented. Not to change anything, but to correct the
 
 I would have loved to work on this together with Creality3D but I can only guess that they are not interested in really embracing open source. 
 
+When I received my first Ender-3 it had a board installed in it with "V1.1.3" printed on the silkscreen.
+I asked in the Ender-3 repository what changed from "V1.1.2" but got no answer to that quesion.
+
+I am still not sure but I believe the only difference is that the header EXT-A2 has been replaced with a 100µF/16V capacitor.
+
+
+The Ender-3 at least has been quietely been "upgraded" to a "V1.1.4" revision of the controller-board.
+I only had pictures to work with but the only change that I found is that the FT232RL has been swapped out for a CH340G.
+I find that is a bold move given that the USB chip provides the 3.3V for the SD-card and while the FT232RL is rated for 50mA, the CH340G does not even have a rating for the output current in the datasheet.
+I would have added a small LDO for the 3.3V in addition but Creality3D did not.
+
+I would not be surprised at all if this turns out to be a major cause for broken V1.1.4 boards.
+
+Next thing I learned is that Creality3D started to offer a silent upgrade mainboard.
+What they did is to replace the A4988 stepper drivers with TMC2208.
+This is just a drop-in replacement and they did not change the board for it.
+Also if you did receive your Ender-3 with a V1.1.4 board you likely have A4988 drivers installed.
+Looking at a still from a Youtube video they changed the sense resistors from 0,1R to 0,15R.
+C10, C14, C18 and C22 should have been changed to 22nF.
+
 
 Original content of the README.md:
 
